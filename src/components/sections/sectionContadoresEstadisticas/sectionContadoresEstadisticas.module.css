@@ -1,0 +1,39 @@
+.containSectionContadoresEstadisticas{
+       width: 100%;
+        padding-bottom: 2rem;
+       font-family: 'Roboto';
+       display: flex;
+       justify-content: center;
+}
+.sectionContadoresEstadisticas{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    width: 70%;
+    flex-wrap: wrap;
+
+}
+.sectionContadorItemText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionContadorItem__title{
+    font-size: 4rem;
+    margin: 0;
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+.sectionContadorItem__subtitle{
+    margin: 0;
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.sectionContadorItem_logo{
+    font-size: 2rem;
+}
+.sectionContadorItem_logo img{
+    width: 2rem;
+}

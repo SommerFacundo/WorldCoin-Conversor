@@ -1,0 +1,26 @@
+
+  
+.navbar{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.containerItemsNavbar{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    font-family: 'Oswald', Arial;
+    font-weight: 400;
+}
+.logoNavbar{
+    width: 4rem;
+}
+.navbar_item  a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.877);
+}

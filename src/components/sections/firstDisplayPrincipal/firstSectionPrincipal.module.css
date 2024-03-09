@@ -1,0 +1,137 @@
+.containerSectionFirst{
+    width: 100%;
+    height: 100vh;
+    margin-top: 2rem;
+}
+.sectionFirst{
+    display: flex;
+    height: 100%;
+}
+.sectionFirst_item1{
+    width: 40%;
+    height: 100%;
+}
+.sectionFirst_item2{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 60%;
+    height: 80%;
+    background-image: url("../../../../public/assets/worldCoinFirstPrincipal.jpg");
+    background-position: 10% 25%;
+    border-top-right-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+
+    background-size:cover;
+
+}
+
+.sectionFirst_item1 p{
+    width:100%;
+    font-family:  'Oswald';
+    font-weight:500;
+    font-size: 3rem;
+    margin: 2rem;
+}
+.sectionFirstItem1__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionFirstItem1__btn button{
+    width: 8rem;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.7rem;
+    font-family: 'Oswald';
+    border: 1px solid black;
+    border-radius: 2px; /* Ajusta el radio de borde según sea necesario */
+    box-shadow: 0 0 0 0 transparent; /* Asegúrate de tener una sombra transparente */
+    transition: box-shadow 0.5s ease; /* Transición suave para el cambio de sombra */
+
+}
+.sectionFirstItem1__btn button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 0 2px rgba(85, 85, 85, 0.5); /* Cambia el tamaño y color de la sombra */
+}
+.sectionFirstItem1__subTexto{
+    color: rgba(0, 0, 0, 0.699);
+    font-family: 'Roboto';
+    font-weight: 400;
+    width: 70%;
+    margin-left: 1rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:1440px) {
+    .sectionFirstItem1__texto p{
+        font-size: 4rem;
+    }
+    .sectionFirstItem1__btn{
+        justify-content: start;
+        margin-left: 2rem;
+    }
+    .sectionFirstItem1__btn button{
+        width:10rem;
+    }
+    .sectionFirstItem1__subTexto{
+        justify-content: start;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:768px) {
+    .sectionFirst_item1{
+        padding-top: 5rem;
+        color: white;
+        width: 100%;
+        height: 70%;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../../public/assets/worldCoinFirstPrincipal.jpg') center center/cover no-repeat;
+
+        background-position: 10% 25%;
+        background-size: cover;
+        text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
+        position:relative
+    }
+    .sectionFirstItem1__texto{
+        width: 80%;
+    }
+    .sectionFirstItem1__texto p {
+        font-size: 4rem;
+    }
+    .waveResponsivePrincipal{
+        position: absolute;
+        bottom: -10px;
+        width: 100%;
+    }
+    .sectionFirstItem1__btn{
+        justify-content: start;
+        margin-left: 2rem;
+    }
+    .sectionFirstItem1__btn button{
+        font-size: 1.5rem;
+        width: 8rem;
+        border: 1px solid white;
+        color: white;
+        transition: 1s;
+    }
+    .sectionFirstItem1__btn button:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .sectionFirstItem1__subTexto{
+        color: rgb(212, 212, 212);
+        justify-content: start;
+    }
+    .containerSectionFirst{
+        margin: 0;
+    }
+}
+@media (max-width:400px) {
+    .sectionFirstItem1__texto p {
+        width: 80%;
+        font-size: 2.5rem;
+    }
+}
