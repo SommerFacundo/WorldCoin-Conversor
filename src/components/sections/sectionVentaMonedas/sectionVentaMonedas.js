@@ -27,7 +27,7 @@ export function SectionVentaMonedas(){
 
     return(
         <>
-            <div className={styles.containerSectionVenta}>
+            <div className={styles.containerSectionVenta} id="sectionVentas">
 
 
             <div className={styles.sectionVenta2}>

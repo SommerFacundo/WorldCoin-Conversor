@@ -9,11 +9,14 @@
     align-items: center;
     width: 100%;
 }
-.menuResponsive div{
+.menuResponsive a{
+    text-decoration: none;
+    color: black;
     text-align: center;
     width: 100%;
     padding: 1rem;
+    
 }
-.menuResponsive div:hover{
+.menuResponsive a:hover{
     background-color: rgb(223, 223, 223);
 }

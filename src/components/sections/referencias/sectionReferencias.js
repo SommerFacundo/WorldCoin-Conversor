@@ -9,7 +9,7 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 export function SectionReferencias(){
     return(
-    <div className={styles.contenedorReferencias}>
+    <div className={styles.contenedorReferencias} id="sectionReferencias">
         <p>
             REFERENCIAS
         </p>

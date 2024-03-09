@@ -24,7 +24,7 @@ export function FirstSectionPrincipal(){
                         </p>    
                     </div>
                     <div className={styles.sectionFirstItem1__btn} data-aos="flip-left">
-                        <button>VENDER</button>
+                        <a href="#sectionVentas">VENDER</a>
                     </div>
                     <div className={styles.sectionFirstItem1__subTexto}>
                         RAPIDO SEGURO CONFIABLE

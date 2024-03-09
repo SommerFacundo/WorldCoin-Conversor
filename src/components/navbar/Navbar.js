@@ -8,10 +8,10 @@ export function Navbar() {
             <nav className={styles.navbar}>
                 <div className={styles.containerItemsNavbar}>
                     <div className={styles.navbar_item}>
-                        <a href="#">Quiero Vender</a>
+                        <a href="#sectionVentas">Quiero Vender</a>
                     </div>
                     <div className={styles.navbar_item}>
-                        <a href="#">Referencias</a>
+                        <a href="#sectionReferencias">Referencias</a>
                     </div>
                     <div className={styles.navbar_item}>
                         <a href="#">
@@ -19,7 +19,7 @@ export function Navbar() {
                         </a>
                     </div>
                     <div className={styles.navbar_item}>
-                    <a href="#">Nosotros</a>
+                    <a href="#sectionNosotros">Nosotros</a>
                     </div>
                     <div className={styles.navbar_item}>
                     <a href="#">¿Como Enviar?</a>

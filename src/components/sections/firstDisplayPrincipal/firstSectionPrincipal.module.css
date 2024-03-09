@@ -37,7 +37,10 @@
     justify-content: center;
     align-items: center;
 }
-.sectionFirstItem1__btn button{
+.sectionFirstItem1__btn a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
     width: 8rem;
     height: 3rem;
     background-color: transparent;
@@ -50,7 +53,7 @@
     transition: box-shadow 0.5s ease; /* Transición suave para el cambio de sombra */
 
 }
-.sectionFirstItem1__btn button:hover{
+.sectionFirstItem1__btn a:hover{
     cursor: pointer;
     box-shadow: 0 0 0 2px rgba(85, 85, 85, 0.5); /* Cambia el tamaño y color de la sombra */
 }
@@ -73,7 +76,7 @@
         justify-content: start;
         margin-left: 2rem;
     }
-    .sectionFirstItem1__btn button{
+    .sectionFirstItem1__btn a{
         width:10rem;
     }
     .sectionFirstItem1__subTexto{
@@ -109,14 +112,14 @@
         justify-content: start;
         margin-left: 2rem;
     }
-    .sectionFirstItem1__btn button{
+    .sectionFirstItem1__btn a{
         font-size: 1.5rem;
         width: 8rem;
         border: 1px solid white;
         color: white;
         transition: 1s;
     }
-    .sectionFirstItem1__btn button:hover{
+    .sectionFirstItem1__btn a:hover{
         background-color: white;
         color: black;
     }
@@ -134,7 +137,7 @@
         width: 80%;
         font-size: 2rem;
     }
-    .sectionFirstItem1__btn button{
+    .sectionFirstItem1__btn a{
         font-size: 1.3rem;
         width: 5rem;
     }
