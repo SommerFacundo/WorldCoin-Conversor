@@ -133,7 +133,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     color: white;
 }
 
-@media (max-width:480px) {
+@media (max-width:768px) {
     .containerTitle p{
         font-size: 1.8rem;
         margin: 0;
