@@ -19,10 +19,10 @@ export function Navbar() {
                         </a>
                     </div>
                     <div className={styles.navbar_item}>
-                    <a href="#sectionNosotros">Nosotros</a>
+                    <a href="#sectionVentas">Presencial</a>
                     </div>
                     <div className={styles.navbar_item}>
-                    <a href="#">¿Como Enviar?</a>
+                    <a href="#sectionPaso_A_Paso">¿Como Enviar?</a>
                     </div>
                 </div>
             </nav>

@@ -7,6 +7,9 @@ import AOS from "aos"
 import { SectionReferencias } from './components/sections/referencias/sectionReferencias';
 import { SectionVentaMonedas } from './components/sections/sectionVentaMonedas/sectionVentaMonedas';
 import { NavbarResponsive } from './components/navBarResponsive/navBarResponsive';
+import { Footer } from './components/footer/Footer';
+import { SectionPasoaPaso } from './components/sections/pasoapaso/sectionPasoaPaso';
+import { ButtonWsp } from './components/buttonWsp/buttonWsp';
 function App() {
   const [ancho, setAncho] = useState(window.innerWidth);
   const [alto, setAlto] = useState(window.innerHeight);
@@ -33,6 +36,9 @@ function App() {
       <SectionContadoresEstadisticas/>
       <SectionReferencias/>
       <SectionVentaMonedas/>
+      <SectionPasoaPaso/>
+      <ButtonWsp/>
+      <Footer/>
     </div>
   );
 }

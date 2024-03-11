@@ -9,7 +9,7 @@ export function SectionVentaMonedas(){
             try {
                 const response = await fetch("https://min-api.cryptocompare.com/data/price?fsym=WLD&tsyms=ARS");
                 const data = await response.json();
-                setPriceWLD(data.ARS - 1200)
+                setPriceWLD(data.ARS)
             } catch (error) {
                 console.log("Error:", error);
             }
@@ -21,8 +21,15 @@ export function SectionVentaMonedas(){
     console.log(priceWLD)
 
     function calcularArs(e){
-        document.getElementById("cantArs").value = parseFloat((Math.round( parseFloat(e) * priceWLD * 100) / 100).toFixed(2)); ;
-        setMensajeVenta(`Hola Facu, quiero vender mis ${e}WLD al precio de $${parseFloat((Math.round( parseFloat(e) * priceWLD * 100) / 100).toFixed(2))} pesos`)
+       
+       if(e >= 6){
+           document.getElementById("cantArs").value = parseFloat((Math.round( parseFloat(e) * (priceWLD - 900) * 100) / 100).toFixed(2)); ;
+           setMensajeVenta(`Hola Facu, quiero vender mis ${e}WLD al precio de $${parseFloat((Math.round( parseFloat(e) * priceWLD * 100) / 100).toFixed(2))} pesos`)
+
+       }else{
+        document.getElementById("cantArs").value = parseFloat((Math.round( parseFloat(e) * (priceWLD - 1200) * 100) / 100).toFixed(2)); ;
+           setMensajeVenta(`Hola Facu, quiero vender mis ${e}WLD al precio de $${parseFloat((Math.round( parseFloat(e) * priceWLD * 100) / 100).toFixed(2))} pesos`)
+       }
     } 
 
     return(
@@ -57,7 +64,7 @@ export function SectionVentaMonedas(){
                         <button className={styles.conversorBtnCotizar}>COTIZAR</button>
                     </div>
                     <div className={styles.conversorMsg}>
-                        <p>!Sera redirigido a Whattsap para concretar la venta<br></br>En caso de presencial debe ser de MDP</p>
+                        <p>Sera redirigido a <span>Whattsap</span> para concretar la venta<br></br>En caso de presencial debe ser de MDP</p>
                     </div>
                 </div>
 

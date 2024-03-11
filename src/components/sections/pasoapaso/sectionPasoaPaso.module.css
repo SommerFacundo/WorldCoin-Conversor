@@ -1,0 +1,60 @@
+.containerSectionPasoaPaso{
+    width: 100%;
+    text-align: center;
+    font-size: 'Roboto';
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorPasoaPaso{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:3rem;
+}
+.pasoapaso  div span{
+    font-weight: bold;
+}
+.pasoapasoImg img{
+    width:15rem;
+}
+.sectionPasoPasotitle{
+    font-size: 2.2rem;
+    border-bottom: 1px solid black;
+    width: 30%;
+    padding: 1rem;
+}
+.pasoapaso{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+    text-align: start;
+    align-items: center;
+    width: 30%;
+}
+.textpaso{
+    width: 50%;
+    text-wrap: wrap;
+}
+
+@media (max-width:768px){
+    .pasoapaso{
+        font-size: 1rem;
+    }
+    .direccionBilletera{
+        font-size: .8rem;
+    }
+    .textpaso{
+        width: 80%;
+        overflow: hidden; /* Oculta el texto que no cabe en el contenedor */
+        text-overflow:ellipsis; /* Agrega puntos suspensivos (...) para indicar que el texto está truncado */
+    }
+    
+    }
+    
+    

@@ -26,7 +26,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .conversor{
     width: 20rem;
-    height: 3rem;
+    height: 3.5rem;
     background-color: rgb(252, 252, 252);
 
     display: flex;
@@ -110,8 +110,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     width: 50%;
 }
 .conversorMsg{
-    font-size:1rem;
-    color: red;
+    font-size:.8rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    padding: .4rem;
+    border: 1px solid rgb(255, 255, 255) ;
+    border-radius: .3rem;
+}
+.conversorMsg p span{
+    color: rgb(12, 255, 12);
 }
 .conversorBtnVender{
     background-color: black;
